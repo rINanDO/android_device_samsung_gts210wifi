@@ -2,6 +2,9 @@
 # system.prop for gts210wifi
 #
 
+# Display
+ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+
 # Disable ril
 ro.radio.noril=yes
 

@@ -1,7 +1,9 @@
 LOCAL_PATH := device/samsung/gts210wifi
 
 # Display
-SF_PRIMARY_DISPLAY_ORIENTATION := 270
+# Android 14 QPR3 requires spelling out the word ORIENTATION for whatever dumb reason
+# Doesn't work in .mk, put in prop.
+# SF_PRIMARY_DISPLAY_ORIENTATION := ORIENTATION_270
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
