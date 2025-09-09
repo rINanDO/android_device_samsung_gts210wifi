@@ -30,8 +30,7 @@ PRODUCT_MODEL := SM-T810
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  PRODUCT_NAME=gts210wifi \
-  TARGET_DEVICE=gts210wifi \
-  PRIVATE_BUILD_DESC="gts210wifixx-user 7.0 NRD90M T810XXU2DRB1 release-keys"
+  SystemName=gts210wifi \
+  BuildDesc="gts210wifixx-user 7.0 NRD90M T810XXU2DRB1 release-keys"
 
 BUILD_FINGERPRINT := samsung/gts210wifixx/gts210wifi:7.0/NRD90M/T810XXU2DRB1:user/release-keys
