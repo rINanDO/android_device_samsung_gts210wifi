@@ -10,3 +10,9 @@ ro.radio.noril=yes
 
 # WIFI model
 ro.carrier=wifi-only
+
+# Fingerprint
+ro.vendor.fingerprint.type=home
+ro.vendor.fingerprint.max_enrollments=4
+ro.vendor.fingerprint.uses_percentage_samples=true
+ro.vendor.fingerprint.cancel_on_enroll_completion=true
