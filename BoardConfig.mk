@@ -6,7 +6,7 @@ LOCAL_PATH := device/samsung/gts210wifi
 # SF_PRIMARY_DISPLAY_ORIENTATION := ORIENTATION_270
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+$(call soong_config_set,samsungVars,target_specific_header_path,$(LOCAL_PATH)/include)
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_gts210wifi_defconfig
